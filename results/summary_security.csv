@@ -1,0 +1,11 @@
+channel,condition,attack_variant,n,detection_rate_pct,false_rejection_rate_pct
+mqtt,normal,-,5,,0.0
+mqtt,tampered,bitflip_ciphertext,5,100.0,
+mqtt,tampered,random_tag,5,100.0,
+mqtt,tampered,wrong_key,5,100.0,
+mqtt,tampered,wrong_nonce,5,100.0,
+uart,normal,-,5,,0.0
+uart,tampered,bitflip_ciphertext,5,100.0,
+uart,tampered,random_tag,5,100.0,
+uart,tampered,wrong_key,5,100.0,
+uart,tampered,wrong_nonce,5,100.0,
